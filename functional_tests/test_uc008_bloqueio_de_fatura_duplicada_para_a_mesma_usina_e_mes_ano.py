@@ -62,24 +62,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # O sistema impede cadastro de fatura duplicada para o mesmo mês/ano e usina (CA 25771).
-
-import unittest
-
-
-class UC008Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

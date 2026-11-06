@@ -69,24 +69,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # O sistema registra falhas de comunicação ocorridas durante a coleta (CA 28868).
-
-import unittest
-
-
-class UC012Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

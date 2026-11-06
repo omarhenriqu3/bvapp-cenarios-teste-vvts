@@ -55,20 +55,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Todos os campos obrigatórios são validados antes do salvamento; campos inválidos geram erro (CA 25770).
-
-import unittest
-
-
-class UC007Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-

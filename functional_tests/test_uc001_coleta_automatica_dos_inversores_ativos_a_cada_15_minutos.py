@@ -53,20 +53,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # A coleta dos inversores ativos ocorre automaticamente, sem intervenção do usuário, respeitando o intervalo de 15 minutos (CA 24962).
-
-import unittest
-
-
-class UC001Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-

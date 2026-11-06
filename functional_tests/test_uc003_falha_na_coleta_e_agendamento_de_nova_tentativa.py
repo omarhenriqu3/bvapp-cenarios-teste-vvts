@@ -54,20 +54,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Se uma coleta não for concluída no tempo esperado, o sistema registra a tentativa como falha e agenda nova tentativa conforme RF-4.1.03 (CA 24965).
-
-import unittest
-
-
-class UC003Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-

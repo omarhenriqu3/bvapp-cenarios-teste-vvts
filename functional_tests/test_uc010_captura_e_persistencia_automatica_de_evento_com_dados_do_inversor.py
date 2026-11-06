@@ -76,24 +76,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # O sistema persiste os eventos obtidos com sucesso (CA 28869).
-
-import unittest
-
-
-class UC010Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

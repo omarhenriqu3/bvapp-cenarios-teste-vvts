@@ -53,20 +53,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Dados coletados ficam disponíveis para consulta em até 1 minuto após o ciclo de coleta ser concluído (CA 24967).
-
-import unittest
-
-
-class UC005Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-

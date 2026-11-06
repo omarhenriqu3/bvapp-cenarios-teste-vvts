@@ -53,20 +53,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # O sistema não interrompe coletas de outros inversores caso um deles esteja indisponível (CA 24966).
-
-import unittest
-
-
-class UC004Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-

@@ -68,24 +68,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Toda leitura obtida durante a coleta deve ser armazenada (CA 28851). A associação ao inversor é coberta pelo CA 24963.
-
-import unittest
-
-
-class UC002Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

@@ -7,7 +7,7 @@
 ## Estrutura
 
 - `config/`: arquivos mínimos de configuração Django.
-- `functional_tests/`: um arquivo Python por cenário, com fluxo principal, alternativos e esqueletos `unittest` skipped.
+- functional_tests/: um arquivo test_uc...py por cenário, com docstring inicial e fluxos e regras em comentários.
 - `docs/rastreabilidade.md`: cobertura dos 18 CAs das três features.
 - `docs/duvidas_stakeholders.md`: dúvidas abertas identificadas no walkthrough.
 
@@ -34,12 +34,6 @@ Usinas Solar Alfa e Solar Beta; INV-01 e INV-02 na Alfa; INV-03 na Beta; períod
 
 O ciclo CRUD de UC006 usa edição da Feature 28855 e exclusão da Feature 23853 somente para completar o fluxo, como indicado nas pré-condições.
 
-## Como usar
+## Formato dos cenários
 
-O ambiente é gerenciado por `uv` e declara `django>=5.2` em `pyproject.toml`. Para verificar somente a descoberta/importação dos esqueletos, execute na raiz:
-
-```powershell
-python -m unittest discover -s functional_tests -t .
-```
-
-Todos os métodos estão decorados com `@unittest.skip`; não há testes funcionais implementados.
+Cada arquivo test_uc...py contém o docstring inicial e os comentários dos fluxos principal, alternativos e regras de negócio.

@@ -60,24 +60,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Antes de descartar eventos aparentemente duplicados, o sistema verifica se são ocorrências distintas no tempo (CA 24843). A regra objetiva requer esclarecimento (D12).
-
-import unittest
-
-
-class UC011Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

@@ -64,24 +64,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Apenas o perfil Tesoureiro tem acesso à funcionalidade de cadastro (CA 25772); o CA 25774 repete essa restrição e é coberto em conjunto.
-
-import unittest
-
-
-class UC009Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-

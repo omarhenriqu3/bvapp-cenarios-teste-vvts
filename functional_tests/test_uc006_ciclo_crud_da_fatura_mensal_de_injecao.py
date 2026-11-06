@@ -75,24 +75,3 @@ Dúvidas para os stakeholders:
 # ---------------------------------------------------------------
 
 # Após salvar, a fatura aparece na listagem histórica (CA 25773). O prazo exato requer esclarecimento (D09).
-
-import unittest
-
-
-class UC006Test(unittest.TestCase):
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_fluxo_principal(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a1(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a2(self):
-        pass
-
-    @unittest.skip("Documentação futura; fluxo não automatizado.")
-    def test_a3(self):
-        pass
-
